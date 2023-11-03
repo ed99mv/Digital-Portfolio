@@ -1,0 +1,2 @@
+class Technologies < ApplicationController
+end
