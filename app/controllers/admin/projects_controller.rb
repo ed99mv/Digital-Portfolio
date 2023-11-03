@@ -48,7 +48,11 @@ class Admin::ProjectsController < ApplicationController
     private 
     
       def project_params
+<<<<<<< HEAD
         params.require(:project).permit(:name, :description, :responsabilities, :start_date, :finish_date, :user_id, authors_attributes: [:admin])
+=======
+        params.require(:project).permit(:name, :description, :responsabilities, :start_date, :finish_date, :user_id, :tecnologies_id)
+>>>>>>> b3bf2522305affd2c9c6247b18cb829527ef89d7
       end
 end
 

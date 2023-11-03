@@ -22,6 +22,7 @@ Rails.application.routes.draw do
     resources :skills
     resources :about_me
   end
+<<<<<<< HEAD
 
   namespace :api do
     namespace :portfolio do
@@ -32,6 +33,8 @@ Rails.application.routes.draw do
   resources :projects do
     resources :technologies
   end
+=======
+>>>>>>> b3bf2522305affd2c9c6247b18cb829527ef89d7
  
 
 #admins-----
